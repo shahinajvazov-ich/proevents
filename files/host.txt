@@ -1,0 +1,38 @@
+Sayt.az
+
+log: 8558517
+pass: r51wqy
+
+Hosting
+
+https://ns5.sayt.az:2083
+
+Domain: proevents.az
+| Ip: 185.22.155.185 👎
+| HasCgi: y
+| UserName: nsproevent331
+| PassWord: P3E=#=3^YxH(
+| CpanelMod: paper_lantern
+| HomeRoot: /home
+| Quota: 2.93 GB
+| NameServer1: ns1.websiteca.com
+| NameServer2: ns2.websiteca.com
+| NameServer3: 
+| NameServer4: 
+| Contact Email: S.ZULFUQAROV@GMAIL.COM
+| Package: economic
+| Feature List: default
+| Account Enhancements: None
+| Language: ru
++===================================+
+
+
+Mail client manual settings for outlook:
+
+Username: info@proevents.az
+Password: seymur111@
+Incoming Server: ns5.sayt.az
+IMAP Port: 993 
+POP3 Port: 995
+Outgoing Server: ns5.sayt.az
+SMTP Port: 465

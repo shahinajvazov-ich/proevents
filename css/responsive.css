@@ -1,0 +1,133 @@
+@media screen and (max-width: 992px) {
+ 
+}
+
+  /*------------------------------Hamburger menu----------------------------*/
+  .mobile {
+    display:block!important;
+    position: absolute!important;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    left: 10%;
+  }
+  .mobile-brandlogo {
+    width: 110px;
+    padding-top: 33px;
+  }
+  .mobile-brandlogo img {
+    width: 100%;
+  }
+  
+  .openbutton {
+    z-index: 10;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 32px;
+    border-radius: 51px;
+    transition: 2s;
+    cursor: pointer;
+    float: right; 
+    right: 32px;
+    margin-top: -45px;
+  }
+  .sidebar {
+    background-color: black;
+    height: 100%;
+    width: 300px;
+    background-color: rgb(7, 7, 7);
+    position: fixed!important;
+    z-index: 100;
+    overflow: auto;
+    display: none;
+    right: 0;
+    bottom: 18px;
+  }
+  .closebutton {
+    background:none;
+    border: none;
+    font-size: 21px;
+    margin-left: 8px;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    padding-top: 32px;
+    padding-bottom: 49px;
+    padding-left: 32px;
+  }
+  .sidebarmenu {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;}
+  .sidebarmenu a {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: white;
+    }
+    .sidebarmenu a:hover {
+      color: #8ddcff;
+    }
+  .sidebarsocial {
+    padding-top: 83px;
+  }
+  .sidebarsocial a {
+    margin: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .who-we-are img {
+      padding: 33px;
+  }
+    .f-company {
+    padding-top: 35px;
+}
+    .f-subscribe {
+      padding-top: 35px;
+  }
+  .f-brand img {
+    width: 30%;
+}
+.f-company, .f-contact, .f-subscribe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.f-subscribe [type=submit] {
+  width: 100%;
+}
+.copyright p {
+  display: flex;
+  justify-content: center;
+  padding-left: 28px;
+}
+.f-brand a {
+  display: flex;
+  justify-content: center;
+}
+.works-image {
+  padding-top: 25px;
+}
+.news-board {
+  padding-top: 0px;
+}
+.contact-form #contact-submit {
+    width: 100%;
+    height: 46px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .lookmore {
+    width: 40%;
+  }
+/*-----
+}
